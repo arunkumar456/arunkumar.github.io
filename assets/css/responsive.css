@@ -1,0 +1,224 @@
+/* ================================================================
+    Author       : nilcoder
+    Template Name: Molin - Personal Portfolio HTML Template
+    Tags: One Page portfolio, Creative Template,  professional, landing, HTML 
+    Version      : 1.0
+=================================================================*/
+/*===================================================
+                Responsive Css
+=====================================================*/
+@media only screen and (min-width:992px) and (max-width:1200px){
+	.blog-post-area h3 a {
+		font-size: 20px;
+		line-height: 30px;
+	}
+}
+/*===========================================
+	Tab responsive
+=============================================*/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.about-info h3 {
+		font-size: 16px;
+		line-height: 25px;
+	}
+	.member-intro h5 {
+		font-size: 12px;
+	}
+	.member-intro h6 {
+		font-size: 12px;
+	}
+	.get-wrapper h4 {
+		margin-bottom: 15px;
+	}
+	.blog-post-area h3 a {
+		font-size: 19px;
+		line-height: 28px;
+	}
+	.blog-right-sidebar {
+		margin-top: 100px;
+	}
+}
+
+/*=========================================
+    SMart Phone Device
+===========================================*/
+@media only screen and (min-width: 300px) and (max-width: 767px){
+	h2 {
+		font-size: 14px;
+		letter-spacing: 1px;
+	}
+	p{
+		font-size: 13px;
+		line-height: 30px;
+	}
+	.section-title p {
+		line-height: 21px;
+		font-size: 12px;
+	}
+	.section-title h2 {
+		font-size: 16px;
+	}
+	.site-header.sticky #main-menu ul li a {
+		color: #fff;
+		font-size: 14px;
+		line-height: 40px;
+	}
+	.navbar-right {
+		float: left;
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 100%;
+	}
+	#main-menu {
+		overflow: hidden;
+		background: #434334;
+	}
+	#main-menu ul li a {
+		color: #fff;
+		font-size: 14px;
+		line-height: 40px;
+	}
+	.site-header {
+		background: transparent;
+		position: fixed;
+		z-index: 111111;
+		width: 100%;
+	}
+	.mid-content h1 {
+		font-size: 19px;
+	}
+	.mid-content h4 {
+		font-size: 10px;
+	}
+	.mid-content h4 .cd-words-wrapper b{
+		font-size:  10px;
+	}
+	.about-info h3 {
+		font-size: 14px;
+		line-height: 25px;
+	}
+	.about-info {
+		margin-top: 50px;
+	}
+	.service-wrapper {
+		margin-top: 12px;
+	}
+	.member-intro {
+		margin-bottom: 55px;
+	}
+	a.contact-me {
+		float: none;
+		margin-top: 45px;
+		display: inline-block;
+	}
+	.get-wrapper h4 {
+		font-size: 13px;
+		line-height: 23px;
+		margin-bottom: 14px;
+	}
+	ul.work-filter li {
+		font-size: 14px;
+		padding: 6px 6px;
+	}
+	.joy {
+		width: 100%;
+	}
+	.client-details > p {
+		padding: 0px 0px;
+	}
+	.client-details h5{
+		font-size: 12px;
+	}
+	.get-wrapper p {
+		font-size: 13px;
+		letter-spacing: 1.5px;
+	}
+/*
+	blog page
+*/
+	.blog-post-area h3 a {
+		font-size: 13px;
+		line-height: 23px;
+	}
+	.blog-right-sidebar {
+		margin-top: 100px;
+	}
+	.blog-header-title h1 {
+		font-size: 13px;
+	}
+	.post-meta a {
+		font-size: 10px;
+	}
+	.single-blog-post-area h3 {
+		font-size: 14px;
+		line-height: 23px;
+	}
+	.special-heading-post ul li{
+		font-size: 11px;
+	}
+	.special-heading-post ul li:before {
+		top: 13px;	
+	}
+	.commennts-details {
+		display: block;
+	}
+	#comment-reply {
+		margin-left: 0px; 
+		padding: 0px 0px;
+	}
+	.blog-header-title h1 {
+		font-size: 19px;
+	}
+	.single-blog-post-area h3 {
+		font-size: 18px;
+	}
+	.footer-social-icon ul li a {
+		padding: 6px;
+		font-size: 19px;
+	}
+	.blog-post-area h3 a {
+		margin-top: 12px;
+	}
+}
+
+@media only screen and (min-width:480px) and (max-width: 767px){
+	.section-title h2 {
+		font-size: 32px;
+	}
+	p{
+		font-size: 14px;
+		line-height: 32px;
+	}
+	.mid-content h1 {
+		font-size: 35px;
+	}
+	.mid-content h4 {
+		font-size: 13px;
+	}
+	.mid-content h4 .cd-words-wrapper b{
+		font-size:  13px;
+	}
+	.blog-header-title h1 {
+		font-size: 18px;
+	}
+	.get-wrapper p {
+		font-size: 14px;
+	}
+	.blog-post-area h3 a {
+		font-size: 15px;
+		margin-top: 15px;
+	}
+	.post-meta a {
+		font-size: 11px;
+	}
+	.single-blog-post-area h3 {
+		font-size: 15px;
+	}
+	.special-heading-post ul li {
+		font-size: 13px;
+	}
+	.footer-social-icon ul li a {
+		padding: 8px;
+		font-size: 22px;
+	}
+}
